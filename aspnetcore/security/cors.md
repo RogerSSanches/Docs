@@ -65,7 +65,7 @@ After registering CORS services, use either of the following approaches to enabl
 * [CORS Middleware](#enable-cors-middleware) &ndash; Apply CORS policies globally to the app via middleware.
 * [CORS in MVC](#enable-cors-in-mvc) &ndash; Apply CORS policies per action or per controller. CORS Middleware isn't used.
 
-### Enable CORS Middleware
+### Enable CORS with CORS Middleware
 
 CORS Middleware handles cross-origin requests to the app. To enable CORS Middleware in the request processing pipeline, call the <xref:Microsoft.AspNetCore.Builder.CorsMiddlewareExtensions.UseCors*> extension method in `Startup.Configure`.
 
